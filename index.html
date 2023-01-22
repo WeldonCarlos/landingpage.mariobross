@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/topo.css">
+    <link rel="stylesheet" href="./src/css/informacoes-main.css">
+    <link rel="stylesheet" href="./src/css/botao-trailer.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <title>Lançamento do novo jogo do Mario | a Nitendo inovando sempre!</title>
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mascara__video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="#">
+            <img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="Logo do super mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <a href="">
+                    <li>
+                        Home
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        Detalhes
+                    </li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="conteiner">
+        <div class="informacoes">
+            <img class="logo__nome" src="./src/imagens/titulo.png"
+                alt="Titulo em caixa de texto alta com o nome Super Mario">
+            <p class="texto__descricao">
+                Super Mario Bros é um jogo divertido onde temos o personagem principal mario<br>
+                que está em busca de resgatar a princesa do seu inimigo mortal o browser a<br>
+                tartaruga, passando por inumeras aventuras dentro do game!
+            </p>
+
+
+            <button class="botao__trailer">VEJA O TRAILER !</button>
+
+
+        </div>
+        <img class="turma__do__mario" src="./src/imagens/super-mario-chars.png" alt="Imagem da turma do Mario brows">
+
+        <div class="modal">
+            <div class="conteudo__modal">
+                <span class="fechar__modal">X</span>
+                <iframe width="750" height="450" id="video" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+
+     <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>

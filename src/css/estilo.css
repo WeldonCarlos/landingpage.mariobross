@@ -1,0 +1,40 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ overflow: hidden;
+ background-color: brown;
+}
+
+.mascara__video::after{
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0.9) 100%);
+    display: flex;
+    content: "";
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+.video{
+    height: auto;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.conteiner{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10em 3em; 
+}
+
+
+
+
+
+.turma__do__mario{
+    width: 40%;
+}

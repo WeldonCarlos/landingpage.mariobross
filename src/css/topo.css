@@ -1,0 +1,41 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3em;
+    padding-top: 1em;
+}
+
+.logo{
+    width:10%;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.menu li {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.menu li:hover{
+    background-color: red;
+    padding: 10px 10px;
+    transition: 400ms;
+    border-radius: 5px;
+
+}
+
+
+@media screen and { max-width: 425px;}
+    
+}

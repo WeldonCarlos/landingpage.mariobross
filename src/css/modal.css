@@ -1,0 +1,26 @@
+.modal{
+    display: none;
+}
+
+.conteudo__modal{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 1em 10em 18em;
+}
+
+.aberto{
+    display: flex;
+    position: absolute;
+    
+    
+   
+}
+
+.fechar__modal{
+    background-color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}

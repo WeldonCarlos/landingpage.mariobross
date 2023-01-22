@@ -1,0 +1,17 @@
+.botao__trailer{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1.1em 1em;
+}
+
+
+.botao__trailer:hover{
+    background: blue;
+    transition: 570ms;
+}
