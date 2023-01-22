@@ -1,20 +1,74 @@
-.informacoes{
+.informacoes {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.logo__nome{
+.logo__nome {
     margin-bottom: 15px;
     width: 60%;
 }
 
-.texto__descricao{
+.conteiner {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10em 3em;
+}
+
+
+
+
+
+.turma__do__mario {
+    width: 40%;
+}
+
+
+.texto__descricao {
     color: white;
-    font-family: Poppins, sans-serif ;
+    font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
 
+@media screen and (max-width:425px) {
 
+    .informacoes {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .conteiner {
+
+        display: flex;
+        flex-direction: column;
+        margin: 2.5em 2em;
+    }
+
+    .logo__nome {
+        margin-bottom: 15px;
+        width: 80%;
+    }
+
+
+    .texto__descricao {
+        color: white;
+        font-family: Poppins, sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+
+    .turma__do__mario {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+}

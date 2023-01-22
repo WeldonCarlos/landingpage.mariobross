@@ -23,18 +23,28 @@ body{
 
 
 
-.conteiner{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10em 3em; 
+
+
+
+@media screen and (max-width:425px){
+    body{
+        font-family: 'Poppins', sans-serif;
+       
+        background-color: rgb(190, 92, 27);
+       }
+
+       .mascara__video::after{
+        
+        display: none;
+    }
+
+    .video{
+        display: none;
+    }
+    
+
+   
+    
 }
 
 
-
-
-
-.turma__do__mario{
-    width: 40%;
-}
